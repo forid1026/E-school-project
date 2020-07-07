@@ -1,9 +1,23 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Reusable component */
+.container{
+    margin-bottom: 80px;
+}
+.btn-customize{
+    padding: .7rem 2rem;
+    background: #21B573;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* Header Section */
+
 header{
     background: #F0FFF0;
-    height: 100vh;
 }
 .sign-in-button{
     padding: .1rem 1rem;
@@ -11,12 +25,6 @@ header{
     border-radius: 25px;
     border: none;
 
-}
-.btn-customize{
-    padding: .7rem 2rem;
-    background: #21B573;
-    border-radius: 25px;
-    border: none;
 }
 .container h6{
     font-size: 16px;
@@ -34,4 +42,48 @@ header{
     color: 6C6B6B;
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+/* Courses Section */
+
+.card{
+    border: none;
+}
+
+#courses .icon{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#courses .card{
+    background:#F8FFFB;
+    border-radius: 10px;
+    
+}
+#courses .card:hover{
+    background: #FFFFFF;
+    box-shadow: 10px 8px 10px lightgray;
+}
+
+
+
+/* Online courses */
+
+.card .card-footer{
+    border-top: none;
+    background: #FFFFFF;
+}
+
+.online-courses .card{
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 15px;
+    border: 10px solid #FFFFFF;
+}
+.online-courses small {
+    font-size: 79%;
+    font-weight: 300;
+}
+.online-courses .card-title{
+    font-size: 24px;
+    font-weight: 500;
 }
