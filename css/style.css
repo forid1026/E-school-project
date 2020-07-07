@@ -24,6 +24,7 @@ header{
     background: #21B573;
     border-radius: 25px;
     border: none;
+    color: #FFFFFF;
 
 }
 .container h6{
@@ -86,4 +87,38 @@ header{
 .online-courses .card-title{
     font-size: 24px;
     font-weight: 500;
+}
+
+/* footer section */
+
+#footer{
+    background: #282531;
+    color: #FFFFFF;
+}
+
+ul li {
+    list-style-type: none;
+    color: lightgray;
+    font-size: 13px;
+}
+ul a li:nth-child(2n+1){
+    margin-bottom: .3rem;
+}
+
+ul  a:hover li:first-child{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#footer .quotes{
+    color: lightgray;
+    padding: 0 100px;
+}
+
+
+
+@media (max-width: 991px){
+    .sign-in-button{
+        width: 15%;
+    }
 }
