@@ -23,6 +23,7 @@ body{
 
 header{
     background: #F0FFF0;
+    height: 100vh;
 }
 nav{
     background:#F0FFF0;
@@ -145,33 +146,3 @@ ul  a:hover li:first-child{
 } 
 
 
-
-@media (max-width: 1199px){
-    .btn-customize{
-        margin-bottom: 20px;
-    }       
-}
-@media (max-width: 1190px){
-    #courses .p-3{
-        padding: 1.6rem!important;;
-    }
-}
-
- @media (max-width: 991px){
-    .sign-in-button{
-        padding: .1rem 1rem;
-        width: 30%;
-    }
-    
-} 
-
-@media (max-width: 767px){
-    #testimonial .client-image{
-        flex: none;
-        margin: auto;
-        margin-bottom: 1rem;
-    }
-    #footer .quotes{
-        padding: 0 .5rem;
-    }
-}
