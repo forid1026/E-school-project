@@ -23,7 +23,6 @@ body{
 
 header{
     background: #F0FFF0;
-    height: 100vh;
 }
 nav{
     background:#F0FFF0;
@@ -55,11 +54,6 @@ nav{
 }
 
 /* Courses Section */
-
-/* .card{
-    border: none;
-} */
-
 #courses .icon{
     text-align: center;
     margin: auto;
