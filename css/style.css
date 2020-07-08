@@ -10,14 +10,22 @@ body{
     padding: .7rem 2rem;
     background: #21B573;
     border-radius: 25px;
-    border: none;
     color: #FFFFFF;
+    border: 2px solid #21B573;
+}
+.btn-customize:hover{
+    background: transparent;
+    color: #282531;
+    border: 2px solid #21B573;
 }
 
 /* Header Section */
 
 header{
     background: #F0FFF0;
+}
+nav{
+    background:#F0FFF0;
 }
 .sign-in-button{
     padding: .1rem 1rem;
@@ -47,9 +55,9 @@ header{
 
 /* Courses Section */
 
-.card{
+/* .card{
     border: none;
-}
+} */
 
 #courses .icon{
     text-align: center;
@@ -59,6 +67,7 @@ header{
 #courses .card{
     background:#F8FFFB;
     border-radius: 10px;
+    border: none;
     
 }
 #courses .card:hover{
@@ -70,10 +79,10 @@ header{
 
 /* Online courses */
 
-.card .card-footer{
+/* .card .card-footer{
     border-top: none;
     background: #FFFFFF;
-}
+} */
 
 .online-courses .card{
     box-shadow: 5px 5px 15px lightgray;
@@ -87,6 +96,22 @@ header{
 .online-courses .card-title{
     font-size: 24px;
     font-weight: 500;
+}
+
+
+/* Pricetable section */
+#others .card{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+}
+#others .card .card-footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Blog section */
+#blogs .card-deck a{
+    text-decoration: none;
+    color: #21B573;
 }
 
 /* footer section */
@@ -115,10 +140,38 @@ ul  a:hover li:first-child{
     padding: 0 100px;
 }
 
+.card img.book {
+    width: 21%!important;
+} 
 
 
-@media (max-width: 991px){
+
+@media (max-width: 1199px){
+    .btn-customize{
+        margin-bottom: 20px;
+    }       
+}
+@media (max-width: 1190px){
+    #courses .p-3{
+        padding: 1.6rem!important;;
+    }
+}
+
+ @media (max-width: 991px){
     .sign-in-button{
-        width: 15%;
+        padding: .1rem 1rem;
+        width: 30%;
+    }
+    
+} 
+
+@media (max-width: 767px){
+    #testimonial .client-image{
+        flex: none;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    #footer .quotes{
+        padding: 0 .5rem;
     }
 }
