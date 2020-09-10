@@ -23,6 +23,7 @@ body{
 
 header{
     background: #F0FFF0;
+    height: 85vh;
 }
 nav{
     background:#F0FFF0;
@@ -92,7 +93,9 @@ nav{
     font-size: 24px;
     font-weight: 500;
 }
-
+.online-courses .card .w-25 {
+    width: 16%!important;
+}
 
 /* Pricetable section */
 #others .card{
@@ -138,5 +141,3 @@ ul  a:hover li:first-child{
 .card img.book {
     width: 21%!important;
 } 
-
-
